@@ -22,11 +22,6 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
-		.separador {
-  			border: 0;
-  			border-top: 1px solid #ccc; /* Color de la línea */
-  			margin: 30px 0; /* Espacio en blanco por encima y por debajo de la línea */
-		}
         h1 {
             color: #2c3e50;
         }
@@ -55,15 +50,12 @@
     <div class="contenedor">
         <h1>¡Hola, Mundo!</h1>
         <p>Esta es una página básica para probar que todo funciona correctamente.</p>
+		<p>&nbsp;</p>
+		<a href="buton_pru.html">Ir a la página de prueba de botones</a>
+		<p>&nbsp;</p>
         <button onclick="mostrarMensaje()">Haz clic aquí</button>
         <p id="mensaje"></p>
     </div>
-
-	<hr class="separador">
-	
-	<div class="contenedor">
-		<a href="buton_pru.html">Ir a la página de prueba de botones</a>
-	</div>
 
 	<script>
         function mostrarMensaje() {
